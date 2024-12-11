@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/ece718-24fall-chipyard/generators/ece718-24fall-spmm/src/main/scala/Configs.scala:14:44: value LazyModule in package diplomacy is deprecated (since rocketchip 2.0.0): Diplomacy has been split to a standalone library[0m
+[0m[[0m[33mwarn[0m] [0m[0m  case BuildRoCC => Seq((p: Parameters) => LazyModule([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
