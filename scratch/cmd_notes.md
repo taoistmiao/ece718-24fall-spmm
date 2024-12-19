@@ -6,3 +6,4 @@ rm your-tarball-name.tar
 https://apptainer.org/docs/user/main/persistent_overlays.html#overlay-embedded-in-sif
 apptainer overlay create --fakeroot --size 1024 overlay.img
 apptainer shell -C -B ece718-24fall-chipyard:/ece718-24fall-chipyard --fakeroot --overlay chipyard-overlay.img chipyard-env.sif
+make run-binary BINARY=../../tests/build/accum.riscv CONFIG=SpMMRocketConfig LOADMEM=1
